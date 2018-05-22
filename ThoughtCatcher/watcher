@@ -1,0 +1,14 @@
+import keyboard
+
+
+def main():
+    keyboard.add_hotkey(shortcut, on_triggered)
+    root = Tk()
+    w = Label(root, text="Capture what?")
+    w.pack()
+
+
+    root.mainloop()
+
+if __name__ == '__main__':
+    main()
